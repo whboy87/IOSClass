@@ -1,5 +1,5 @@
 //
-//  GreenViewController.swift
+//  LogInViewController.swift
 //  FirstSample
 //
 //  Created by SDS-012 on 2017. 4. 25..
@@ -8,18 +8,19 @@
 
 import UIKit
 
-class GreenViewController: UIViewController {
+class LogInViewController: UIViewController {
 
-    @IBAction func closeButton(_ sender: Any) {
-        self.dismiss(animated: true, completion: nil)
-    }
+    @IBOutlet var idTextField: UITextField!
+    @IBOutlet var passWordTextField: UITextField!
     
     @IBAction func logInButton(_ sender: Any) {
-        //let vc: LogInViewController = storyboard?.instantiateViewController(withIdentifier: "loginvc")
-        if let vc = storyboard?.instantiateViewController(withIdentifier: "loginvc") {
-            self.present(vc, animated: true, completion: nil)
-        }
         
+        let userId = idTextField.text
+        let userPw = passWordTextField.text
+        
+        print("ID : \(userId) PW: \(userPw)")
+        
+        self.dismiss(animated: true, completion: nil)
     }
     
     override func viewDidLoad() {

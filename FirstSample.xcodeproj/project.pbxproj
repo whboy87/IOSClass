@@ -16,6 +16,7 @@
 		251069981EAF1CE900FFADA8 /* YellowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 251069971EAF1CE900FFADA8 /* YellowViewController.swift */; };
 		2510699A1EAF1D8C00FFADA8 /* GreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 251069991EAF1D8C00FFADA8 /* GreenViewController.swift */; };
 		2510699C1EAF32D400FFADA8 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 2510699B1EAF32D400FFADA8 /* .gitignore */; };
+		2510699E1EAF375600FFADA8 /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2510699D1EAF375600FFADA8 /* LogInViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		251069971EAF1CE900FFADA8 /* YellowViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YellowViewController.swift; sourceTree = "<group>"; };
 		251069991EAF1D8C00FFADA8 /* GreenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GreenViewController.swift; sourceTree = "<group>"; };
 		2510699B1EAF32D400FFADA8 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		2510699D1EAF375600FFADA8 /* LogInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +74,7 @@
 				2510698C1EAF122500FFADA8 /* LaunchScreen.storyboard */,
 				2510698F1EAF122500FFADA8 /* Info.plist */,
 				251069951EAF193F00FFADA8 /* SkyViewController.swift */,
+				2510699D1EAF375600FFADA8 /* LogInViewController.swift */,
 			);
 			path = FirstSample;
 			sourceTree = "<group>";
@@ -152,6 +155,7 @@
 			files = (
 				251069981EAF1CE900FFADA8 /* YellowViewController.swift in Sources */,
 				251069861EAF122500FFADA8 /* ViewController.swift in Sources */,
+				2510699E1EAF375600FFADA8 /* LogInViewController.swift in Sources */,
 				251069961EAF193F00FFADA8 /* SkyViewController.swift in Sources */,
 				251069841EAF122500FFADA8 /* AppDelegate.swift in Sources */,
 				2510699A1EAF1D8C00FFADA8 /* GreenViewController.swift in Sources */,
